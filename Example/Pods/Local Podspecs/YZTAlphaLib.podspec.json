@@ -1,0 +1,36 @@
+{
+  "name": "YZTAlphaLib",
+  "version": "0.1.0",
+  "summary": "A short description of YZTAlphaLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zeasy@qq.com/YZTAlphaLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zeasy@qq.com": "zhuyi535@pingan.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/zeasy@qq.com/YZTAlphaLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "../YZTAlpha/Sources/**/*",
+  "dependencies": {
+    "Alpha/Interface": [
+
+    ],
+    "Alpha/Screenshot": [
+
+    ],
+    "Alpha/Trigger": [
+
+    ],
+    "Alpha/File": [
+
+    ]
+  }
+}

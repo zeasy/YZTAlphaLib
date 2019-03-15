@@ -1,0 +1,6 @@
+framework module YZTAlphaLib {
+  umbrella header "YZTAlphaLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

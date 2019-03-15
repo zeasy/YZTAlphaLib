@@ -1,0 +1,49 @@
+PODS:
+  - Alpha/Asset (0.3.2)
+  - Alpha/Core (0.3.2):
+    - Alpha/Asset
+    - Alpha/Model
+    - Alpha/Private
+    - Alpha/Theme
+  - Alpha/File (0.3.2):
+    - Alpha/Core
+  - Alpha/Interface (0.3.2):
+    - Alpha/Core
+    - Alpha/Render
+  - Alpha/Model (0.3.2):
+    - Alpha/Theme
+    - Alpha/Utility
+  - Alpha/Private (0.3.2)
+  - Alpha/Render (0.3.2):
+    - Alpha/Core
+    - Alpha/View
+  - Alpha/Screenshot (0.3.2):
+    - Alpha/Core
+  - Alpha/Theme (0.3.2):
+    - Alpha/Asset
+    - Alpha/Utility
+  - Alpha/Trigger (0.3.2):
+    - Alpha/Core
+  - Alpha/Utility (0.3.2)
+  - Alpha/View (0.3.2):
+    - Alpha/Core
+  - YZTAlphaLib (0.1.0):
+    - Alpha/File
+    - Alpha/Interface
+    - Alpha/Screenshot
+    - Alpha/Trigger
+
+DEPENDENCIES:
+  - YZTAlphaLib (from `../`)
+
+EXTERNAL SOURCES:
+  YZTAlphaLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alpha: ffe13f7d9c5f287b93398a01b67e9d44729c6630
+  YZTAlphaLib: 06ed83512831d66944605d7b4d690f3bd5d53a4f
+
+PODFILE CHECKSUM: 4c0e95fc91fec6cbc7e89d90d1b307d86677ca91
+
+COCOAPODS: 1.4.0
